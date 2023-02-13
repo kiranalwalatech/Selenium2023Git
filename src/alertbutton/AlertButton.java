@@ -14,7 +14,7 @@ public class AlertButton {
 		  Thread.sleep(3000);
 		  driver.findElement(By.xpath("//*[@id=\"node-100\"]/div/div[1]/div/div/button")).click();
 		  Thread.sleep(4000);
-		  driver.switchTo().alert().accept();
+		  driver.switchTo().alert().dismiss();
 		  
 	  }
   
