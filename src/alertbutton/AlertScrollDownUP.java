@@ -31,7 +31,7 @@ public class AlertScrollDownUP {
 	  
   }
 
-}
+
 @BeforeTest
   public void beforeTest() {
 	  System.setProperty("webdriver.chrome.driver", "drivers//chromedriver.exe");
